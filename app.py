@@ -7,7 +7,7 @@ import numpy as np
 # Load the trained model
 @st.cache_resource
 def load_model():
-    return joblib.load("deployment_files/rental_price_prediction_model_v1_0.joblib")
+    return joblib.load("rental_price_prediction_model_v1_0.joblib")
 
 model = load_model()
 
